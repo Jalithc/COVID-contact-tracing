@@ -55,11 +55,6 @@ class Person:
         return rand_str
         
     def move_location(self, new_location):
-        '''
-        Method which moves the person
-        input:
-        new_location: type --> class instance
-        '''
         # check to see who is here and log unique codes
         self.register_contacts()
         # remove the person's code from the location that is being left
